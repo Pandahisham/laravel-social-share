@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Tshafer\SocialShare;
 
 use Tshafer\ServiceProvider\ServiceProvider as BaseProvider;
@@ -10,7 +9,6 @@ use Tshafer\ServiceProvider\ServiceProvider as BaseProvider;
  */
 class ServiceProvider extends BaseProvider
 {
-
     /**
      * Register the application services.
      */

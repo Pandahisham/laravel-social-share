@@ -1,11 +1,9 @@
 <?php
 
-
 namespace Tshafer\SocialShare\Services;
 
 class GooglePlus extends Service
 {
-
     /**
      * @return string
      */

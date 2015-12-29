@@ -7,7 +7,6 @@ namespace Tshafer\SocialShare;
  */
 class Share
 {
-
     /**
      * @param string $method
      * @param array  $args
@@ -18,9 +17,9 @@ class Share
      */
     public function __call($method, $args)
     {
-        $class = __NAMESPACE__ . '\\Services\\' . studly_case($method);
+        $class = __NAMESPACE__.'\\Services\\'.studly_case($method);
 
-        if ( ! class_exists($class)) {
+        if (!class_exists($class)) {
             throw new \Exception("Unknown service [$method].");
         }
 

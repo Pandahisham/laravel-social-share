@@ -1,11 +1,9 @@
 <?php
 
-
 namespace Tshafer\SocialShare\Services;
 
 class VkCom extends Service
 {
-
     /**
      * @return string
      */
@@ -24,9 +22,9 @@ class VkCom extends Service
     public static function getFields($link, $text, $media)
     {
         return [
-          'url'     => $link,
-          'image'   => $media,
-          'title'   => $text,
+          'url' => $link,
+          'image' => $media,
+          'title' => $text,
           'noparse' => 'false',
         ];
     }
