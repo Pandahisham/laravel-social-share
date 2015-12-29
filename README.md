@@ -5,7 +5,7 @@
 First, pull in the package through Composer.
 
 ```js
-composer require tshafer/laravel-social-share:1.0.*@dev
+composer require tshafer/laravel-social-share
 ```
 
 And then, if using Laravel 5, include the service provider within `app/config/app.php`.
@@ -23,7 +23,7 @@ And, for convenience, add a facade alias to this same file at the bottom:
 ```php
 'aliases' => [
     // ... Illuminate Facades
-    'Share' => DraperStudio\SocialShare\Facades\SocialShare::class
+    'Share' => Tshafer\SocialShare\Facades\SocialShare::class
 ];
 ```
 

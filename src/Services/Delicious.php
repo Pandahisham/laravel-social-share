@@ -1,7 +1,7 @@
 <?php
 
 
-namespace DraperStudio\SocialShare\Services;
+namespace Tshafer\SocialShare\Services;
 
 class Delicious extends Service
 {

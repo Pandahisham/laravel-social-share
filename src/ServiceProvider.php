@@ -1,7 +1,7 @@
 <?php
 
 
-namespace DraperStudio\SocialShare;
+namespace Tshafer\SocialShare;
 
 use Tshafer\ServiceProvider\ServiceProvider as BaseProvider;
 
