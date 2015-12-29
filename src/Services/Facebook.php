@@ -1,11 +1,9 @@
 <?php
 
-
 namespace Tshafer\SocialShare\Services;
 
 class Facebook extends Service
 {
-
     /**
      * @return string
      */
@@ -24,7 +22,7 @@ class Facebook extends Service
     public static function getFields($link, $text, $media)
     {
         return [
-          'u'     => $link,
+          'u' => $link,
           'title' => $text,
         ];
     }

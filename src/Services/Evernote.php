@@ -1,11 +1,9 @@
 <?php
 
-
 namespace Tshafer\SocialShare\Services;
 
 class Evernote extends Service
 {
-
     /**
      * @return string
      */
@@ -24,7 +22,7 @@ class Evernote extends Service
     public static function getFields($link, $text, $media)
     {
         return [
-          'url'   => $link,
+          'url' => $link,
           'title' => $text,
         ];
     }

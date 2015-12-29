@@ -1,15 +1,12 @@
 <?php
 
-
 namespace Tshafer\SocialShare\Services;
 
 /**
  * Class Service.
  */
-
 abstract class Service
 {
-
     /**
      * @param string $link
      * @param string $text
@@ -23,7 +20,7 @@ abstract class Service
           static::getFields($link, $text, $media)
         ));
 
-        return static::getUrl() . $query;
+        return static::getUrl().$query;
     }
 
     /**

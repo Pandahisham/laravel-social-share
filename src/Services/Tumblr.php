@@ -1,11 +1,9 @@
 <?php
 
-
 namespace Tshafer\SocialShare\Services;
 
 class Tumblr extends Service
 {
-
     /**
      * @return string
      */

@@ -1,11 +1,9 @@
 <?php
 
-
 namespace Tshafer\SocialShare\Services;
 
 class LinkedIn extends Service
 {
-
     /**
      * @return string
      */
@@ -24,9 +22,9 @@ class LinkedIn extends Service
     public static function getFields($link, $text, $media)
     {
         return [
-          'url'   => $link,
+          'url' => $link,
           'title' => $text,
-          'mini'  => 'true',
+          'mini' => 'true',
         ];
     }
 }

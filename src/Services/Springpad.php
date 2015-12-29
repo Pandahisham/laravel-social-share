@@ -1,11 +1,9 @@
 <?php
 
-
 namespace Tshafer\SocialShare\Services;
 
 class Springpad extends Service
 {
-
     /**
      * @return string
      */
@@ -24,7 +22,7 @@ class Springpad extends Service
     public static function getFields($link, $text, $media)
     {
         return [
-          'url'  => $link,
+          'url' => $link,
           'name' => $text,
           'type' => 'lifemanagr.Bookmark',
         ];
